@@ -1,0 +1,72 @@
+.content {
+  width: 100%;
+  background-color: $content_bg;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 32px 32px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      background-image: url("assets/images/ColorOverlay.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 100%;
+      width: 100%;
+      max-width: 373px;
+      height: 100%;
+      max-height: 378px;
+      position: absolute;
+      bottom: 0;
+      left: 50;
+      z-index: 1;
+    }
+
+    &__title {
+      font-size: 36px;
+      font-family: $ff-primary;
+      font-weight: 600;
+      width: 100%;
+      text-align: center;
+      padding: 60px 32px;
+      color: $primary;
+    }
+
+    &__item {
+      min-width: 280px;
+      padding-bottom: 32px;
+      z-index:2;
+
+      &--value {
+        display: flex;
+        justify-content: center;
+
+        span {
+          width: 88px;
+          line-height: 72px;
+          padding-bottom: 16px;
+          text-align: center;
+          font-size: 36px;
+          color: $danger;
+          border-radius: 50%;
+          background-color: $white;
+          box-shadow: 0 3px 7px rgba($dark, 10%);
+          font-family: $ff-secondary;
+          font-weight: 600;
+        }
+      }
+
+      &--description {
+        margin: 32px auto;
+        max-width: 370px;
+        text-align: center;
+      }
+    }
+  }
+}

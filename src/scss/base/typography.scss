@@ -1,0 +1,54 @@
+body {
+  font-family: $ff-primary;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: $ff-primary;
+}
+
+.page {
+  min-width: 99vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  color: $secondary;
+  font-size: 16px;
+  font-family: $ff-secondary;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+  color: $secondary;
+}
+
+.mbl-hide {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.mbl-show {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.desktop-hide {
+  @media (min-width: 1350px) {
+    display: none;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}

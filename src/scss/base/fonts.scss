@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Playfair";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/playfair-display-v22-latin-regular.eot");
+  src: local(""),
+    url("assets/playfair-display-v22-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/playfair-display-v22-latin-regular.woff2") format("woff2"),
+    url("assets/playfair-display-v22-latin-regular.woff") format("woff"),
+    url("assets/playfair-display-v22-latin-regular.ttf") format("truetype"),
+    url("assets/playfair-display-v22-latin-regular.svg#PlayfairDisplay")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/lato-v17-latin-regular.eot");
+  src: local(""),
+    url("assets/lato-v17-latin-regular.eot?#iefix") format("embedded-opentype"),
+    url("assets/lato-v17-latin-regular.woff2") format("woff2"),
+    url("assets/lato-v17-latin-regular.woff") format("woff"),
+    url("assets/lato-v17-latin-regular.ttf") format("truetype"),
+    url("assets/lato-v17-latin-regular.svg#Lato") format("svg");
+}
